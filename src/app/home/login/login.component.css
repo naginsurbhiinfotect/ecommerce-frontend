@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login_layout{
+    background-color: blueviolet;
+    width: 50%;
+    height: 50vh;
+justify-content: center;
+margin: auto;
+align-items: center;
+display: flex;
+}
+.box{
+
+}
