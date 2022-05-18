@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.text-control {
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.btn {
+    padding: .5rem 1rem;
+}
+.btn:hover{
+    background-color: #833cb8;
+}
+
+input {
+    outline: none;
+}
+
+.text-purple {
+    color: #833cb8;
+}
+
+.bg-purple {
+    background-color: #833cb8;
+}
