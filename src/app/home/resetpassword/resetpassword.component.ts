@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-resetpassword',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResetpasswordComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
+  login() {
+    this.route.navigate(["/login"])
   }
-
 }

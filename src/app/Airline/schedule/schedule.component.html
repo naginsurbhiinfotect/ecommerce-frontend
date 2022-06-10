@@ -1,0 +1,89 @@
+<div class="box-wrapper"> 
+    <div class="layout">
+        <div class="header d-flex">
+            <h4 class="title">Schedule</h4>
+            <button class="btn add-button" data-bs-toggle="modal" data-bs-target="#exampleModal">add schedule</button>
+        </div>
+        <hr class="divider solid">
+        <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">flightId</th>
+                <th scope="col">airlineId</th>
+                <th scope="col">userId</th>
+                <th scope="col">from</th>
+                <th scope="col">destination</th>
+                <th scope="col">startDate</th>
+                <th scope="col">endDate</th>
+                <th scope="col">cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+            </tr>
+          </tbody>
+          </table>
+    </div>
+</div> 
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add schedule</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="my-3">
+          <label for="">From</label>
+          <input type="text" class="text-control" formControlName="from">
+      </div>
+      <div class="my-3">
+        <label for="">Destination</label>
+        <input type="text" class="text-control" formControlName="destination">
+    </div>
+    <div class="my-3">
+      <label for="">Start Date</label>
+      <input type="date" class="text-control" formControlName="startDate">
+  </div>
+  <div class="my-3">
+    <label for="">End Date</label>
+    <input type="date" class="text-control" formControlName="endDate">
+</div>
+<div class="my-3">
+  <label for="">Cost</label>
+  <input type="text" class="text-control" formControlName="cost">
+</div>
+      
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <mat-paginator ></mat-paginator>
+<mat-paginator [length]="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              aria-label="Select page">
+</mat-paginator>
+
+<mat-slider min="1" max="100" step="1" value="50"></mat-slider> -->
